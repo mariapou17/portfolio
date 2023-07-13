@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+h1 {
+    font-size: 40px;
+    font-family:'Inter';
+}
+:root {
+    --navyblue: #001664;
+    --green: #C7FFB4;
+    --black: #000000;
+    --white: #FFFFFF;
+    --turquoise: #2CA39B;
+    --skyblue: #7B87FA;
+
+    --regular-font: 400;
+    --bold-font: 700;
+    --h1-fontsize: 98px;
+    --h2-fontsize: 68px;
+    --h3-fontsize: 48px;
+    --h4-fontsize: 32px;
+    --h5-fontsize: 20px;
+    --p-fontsize: 16px;
+}
+
+
+    
+    * {
+       border: 1px solid red
+    }
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-decoration: none;
+
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+
+}
+
+li {
+    list-style: none;
+    gap: 500px;
+}
+a {
+    font-size: var(--h5-fontsize);
+    color:#000000 var(--black);
+    text-decoration: none;
+
+}
+body {
+    font-family: Inter;
+}
+.contact-me-btn {
+display: flex;
+padding: 10.5px 12px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 8px;
+background-color:#2CA39B;
+color:#FFFFFF;
+
+}
+
+#home {
+background-color:#001664; 
+color: #FFFFFF;
+height: 628px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+#presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#empty-section {
+background-color:#7B87FA;
+height: 232px;
+}
+h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contact-me-bttn {
+    display: flex;
+    padding: 10.5px 12px;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 8px;
+    background-color:#2CA39B;
+    color:#FFFFFF;
+    width: 120px;
+    text-align: center;
+}
+#about-green {
+
+    background-color:#001664;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#about {
+    gap: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: grid;
+    background-color:#001664;
+    color:#FFFFFF;
+}
+#my-life {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+}
+#contact-me-section {
+    
+    background-color:#000000;
+    height:860px; 
+    color: #FFFFFF;
+    font-size: var(--h2-fontsize);
+
+}
+
+label {
+    font-size: var(--h4-fontsize);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 24px;
+    margin: 0px 80px;
+}
+
+.span12 {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+}
+.span12center {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+.span6 {
+    display: flex;
+    
+    flex-direction: column;
+}
+
+input {
+    border-radius: 30px;
+    height: 48px;
+}
+
+#submit-btn {
+    display: flex;
+align-items: center;
+border-radius: 30px;
+background: #2CA39B;
+padding: 16px 20px;
+grid-column: span 2;
+width:fit-content;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.basketball-card {
+    display: flex;
+    flex-direction: column;
+    background-color:#7B87FA;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.basketball-card img {
+    border-radius: 30px;
+    width: 467px;
+    height: 351px;
+    margin: 64px;
+}
+
+#basketball-content {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+#bsqt {
+    background-color:#7B87FA;
+    font-size: var(--h3-fontsize);
+}
+.abt img {
+    border-radius: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+} 
+
+#my-life {
+    background-color:#7B87FA;
+    margin-top: 32px;
+    border-radius: 30px;
+    align-items: left;
+    justify-content: center;
+    font-size: var(--h5-fontsize);
+}
+#hobbies {
+    background-color:#7B87FA;
+    margin-top: 32px;
+    border-radius: 30px;
+    align-items: left;
+    justify-content: center;
+    font-size: var(--h5-fontsize);
+}
+#future {
+    background-color:#7B87FA;
+    margin-top: 32px;
+    border-radius: 30px;
+    align-items: left;
+    justify-content: center;
+    font-size: var(--h5-fontsize)
+}
