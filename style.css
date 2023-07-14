@@ -23,9 +23,7 @@ h1 {
 
 
     
-    * {
-       border: 1px solid red
-    }
+
 ul {
     display: flex;
     justify-content: center;
@@ -122,13 +120,15 @@ h2{
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    font-size: var(--h3-fontsize)
 }
 #about {
     gap: 50px;
     display: flex;
     justify-content: left;
     align-items: left;
-    flex-direction: grid;
+    flex-direction: column;
     background-color:#001664;
     color:#FFFFFF;
 }
@@ -204,13 +204,17 @@ width:fit-content;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    margin-bottom: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .basketball-card img {
     border-radius: 30px;
     width: 467px;
     height: 351px;
-    margin: 64px;
+    margin:64px;
+    justify-content:center;
 }
 
 #basketball-content {
@@ -230,28 +234,73 @@ width:fit-content;
     margin-top: 32px;
     margin-bottom: 32px;
 } 
+.abt {
+    display: flex;
+    padding: 24px;
+}
 
 #my-life {
     background-color:#7B87FA;
     margin-top: 32px;
     border-radius: 30px;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     font-size: var(--h5-fontsize);
+    margin-left: 24px;
+    width: 800px;
+    height: 150px;
+    text-align:left;
 }
 #hobbies {
     background-color:#7B87FA;
     margin-top: 32px;
     border-radius: 30px;
     align-items: left;
-    justify-content: center;
+    justify-content: left;
     font-size: var(--h5-fontsize);
+    margin-left: 24px;
+    width: 800px;
+    height: 150px;
+    text-align:left;
 }
 #future {
     background-color:#7B87FA;
     margin-top: 32px;
     border-radius: 30px;
     align-items: left;
-    justify-content: center;
-    font-size: var(--h5-fontsize)
+    justify-content: left;
+    font-size: var(--h5-fontsize);
+    margin-left: 24px;
+    width: 800px;
+    height: 150px;
+    text-align: left;
+}
+#lyrics {
+    background-color:#7B87FA;
+    font-size: var(--h2-fontsize);
+}
+#basketball {
+    background-color:#001664;
+}
+#school {
+    background-color:#001664;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    font-size: var(--h4-fontsize);
+    color:#FFFFFF;
+}
+.school-img {
+    border-radius: 30px;
+    margin: 32px;
+    display:flex;
+    flex-direction: grid;
+}
+#photo-graduation {
+    display: flex;
+    flex-direction: right;
+}
+.school-img img {
+    border-radius: 30px;
+    margin: 24px;
 }
